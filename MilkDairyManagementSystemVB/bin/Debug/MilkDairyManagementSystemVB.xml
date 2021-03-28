@@ -1,0 +1,321 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MilkDairyManagementSystemVB
+</name>
+</assembly>
+<members>
+<member name="T:MilkDairyManagementSystemVB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.add_acc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.dairymain">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.milklogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.ppp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.searchacc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MilkDairyManagementSystemVB.My.Resources.Resources.searchrec">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet.acntDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet.acntRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet.acntRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.acntTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MilkDairyManagementSystemVB.dairyDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MilkDairyManagementSystemVB.dairyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MilkDairyManagementSystemVB.dairyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.UpdateAll(MilkDairyManagementSystemVB.dairyDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1.acntDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1.acntRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1.acntRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.acntTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MilkDairyManagementSystemVB.dairyDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MilkDairyManagementSystemVB.dairyDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MilkDairyManagementSystemVB.dairyDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.UpdateAll(MilkDairyManagementSystemVB.dairyDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2.dairyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2.dairyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2.dairyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.dairyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(MilkDairyManagementSystemVB.dairyDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(MilkDairyManagementSystemVB.dairyDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(MilkDairyManagementSystemVB.dairyDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.UpdateAll(MilkDairyManagementSystemVB.dairyDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3.rateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3.rateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3.rateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.rateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(MilkDairyManagementSystemVB.dairyDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(MilkDairyManagementSystemVB.dairyDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(MilkDairyManagementSystemVB.dairyDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.UpdateAll(MilkDairyManagementSystemVB.dairyDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MilkDairyManagementSystemVB.dairyDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
